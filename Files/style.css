@@ -1,0 +1,225 @@
+
+* {
+    font-family: 'Manrope', sans-serif;
+    font-size: 62.5%; /* 62.5% of 16px = 10px */
+}
+
+h1 {
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7.2rem;
+    color: #18191F;
+    text-align: center;
+}
+
+h2 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    color: #18191F;
+}
+
+h3 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #18191F;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2rem;
+/* identical to box height, or 143% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 32.rem;
+    /* or 178% */
+
+    font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+    color: #18191F;
+
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+
+    font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+    color: #18191F;
+
+}
+
+            /*Nav Section*/
+
+#nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: left;
+}
+ .menu-options {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+            /*Hero*/
+
+header {
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+    min-width: 100%;
+    
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+}
+
+
+#info-section {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.info-group {
+ 
+}
+
+
+            /*Product Section*/
+
+
+.product-table {
+   display: none;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+
+.product-group {
+    flex: 1 1 5rem;
+    min-width: 10rem;
+    margin: 4%;
+    background-color: khaki;
+}
+
+
+
+.product-item {
+    width: 100%;
+    height: 10rem;
+}
+
+
+.prod-1 {
+   
+}
+               /*Testmonial Section*/
+ #social-proof {
+
+                background: #F4F5F7;
+                width: 100%;
+             
+            }
+            
+
+
+#social-proof.h1 {
+    text-align: center;
+}
+#social-proof.p {
+    text-align: center;
+}
+
+.testominal-group {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.testominal {
+    text-align: center;
+}
+
+.white-background {
+
+    border-radius: 10px;
+    background-color: #FFFFFF;
+/* Grey Shadow */
+box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+
+    padding: 2.5% 5%;
+    margin: 2% 5% 5% 5%;
+}
+
+.center-image {
+    display: inline
+    a
+
+}
+
+
+/* END CTA */
+
+#final-cta {
+    display: grid;
+    grid-template: repeat(5, 1fr) / 1fr 3fr 1fr ;
+    max-height: 600px;
+    
+}
+
+.ctatitle {
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    text-align: center;
+}
+.ctabutton {
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    min-width: 24rem;
+    min-height: 6.2rem;
+    background: #8C30F5;
+    border-radius: 8px;
+    justify-self: center;
+    color: white;
+    font-size: 2rem;
+}
