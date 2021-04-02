@@ -5,6 +5,38 @@
     
 }
 
+@media only screen and (max-width: 320px) {
+    html{ font-size:50%;
+}
+}
+
+@media only screen and (min-width: 320px) {
+    html{ font-size:48%;
+}
+}
+
+@media only screen and (min-width: 500px) {
+    html{ font-size:62.5%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    html{ font-size:62.5%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    html{ font-size:62.5%;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+    html{ font-size:62.5%;
+}
+}
+
+
+
 
 
 h1 {
@@ -74,12 +106,6 @@ b {
     color: #18191F; 
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 2.5%;
-} 
 
 .grid {
     
@@ -91,6 +117,17 @@ b {
    
 }
 
+@media only screen and (max-width: 500px) {
+    .grid {
+    
+        display: grid;
+        grid-template-columns: 0% repeat(9,10%) 0%;
+        grid-template-rows: repeat(20, 6rem);
+        gap: 2rem;
+        padding: 0;
+}
+}
+
             /*Nav Section*/
 
 
@@ -100,14 +137,27 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 30px 10%;
-        
-
 }
 
 .logo {
     cursor: pointer;
-    
+
 }
+
+@media only screen and (max-width: 800px) {
+    .logo{ display: none;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 3rem 0%;
+}
+
+}
+
+
 
 #hero {
 
@@ -117,8 +167,8 @@ header {
     background-repeat: no-repeat;
     background-position: right;
     max-height: 500px;
-    max-width: 24800px;
-    min-height: 700px;
+    max-width: 2480px;
+    min-height: 70rem;
 }
 
 
@@ -132,7 +182,7 @@ ul {
 }
 .nav_links li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 2rem;
 }
 
 .nav_links li a {
@@ -160,6 +210,13 @@ ul {
     grid-area: 2 / 2 / 3 / 6;
 }
 
+@media only screen and (max-width: 900px) {
+    .hero_title {
+        grid-area: 1 / 2 / 3 / 5;
+    }
+}
+
+
 .hero_subtile {
     grid-area: 4 / 2 / 4 / 6;
     padding-top: 3rem;
@@ -168,6 +225,7 @@ ul {
 .hero_cta {
 
     grid-area: 6 / 2 / 6/ 5;
+    padding-top: 3rem;
  
 }
 
@@ -189,6 +247,15 @@ ul {
     max-width: 15rem;
     width: 15rem;
     margin: 0 2rem;
+}
+@media only screen and (max-width: 350px) {
+    .info-group {
+        border-bottom: 2px solid #18191F;
+        flex-grow: 1;
+        max-width: 30rem;
+        width: 15rem;
+        margin: 0 2rem;
+    }
 }
 
 .info-group h2 {
@@ -216,7 +283,7 @@ ul {
 }
 
 .product-item {
-    width: 37.5%;
+    min-width: 37.5%;
 }
 
 .product-item h3 {
@@ -355,6 +422,5 @@ box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
 .form-field {
     min-width: 40rem;
     min-height: 4rem;
-   
     margin: 1rem 0rem;
 }
