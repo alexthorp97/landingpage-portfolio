@@ -10,23 +10,38 @@
     <link rel="stylesheet" type="text/css" href="./Files/style.css">    
 </head>
 <body>
-    <nav>
-      <img src="./Files/General/Hero/Header/Logotype/Dark.png">
-      <div class="menu-options">
-        <h4>About</h4>
-        <h4>Services</h4>  
-        <h4>Blog</h4>  
-        <h4>Jobs</h4>  
-        <h4>Contact</h4>  
-    </div>
-    </nav>
+
+<div id="hero">
     
-    <header>
-        <h1>Workspace that inspire</h1>
-        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</h6>
-        <img src="./Files/General/Hero/CTAhero.svg">
-        <img src="./Files/General/Hero/Hero/Image.png">
-    </header>
+<header>
+    
+ <img src="./Files/General/Hero/Header/Logotype/Dark.png" class="logo">
+    <nav>
+      <ul class="nav_links">
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Jobs</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+
+
+</header>
+    
+    
+
+    <div class="grid">   
+
+        <h1 class="hero_title">Workspace that inspire</h1>
+        <h6 class="hero_subtile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</h6>
+        <img class="hero_cta" src="./Files/General/Hero/CTAhero.svg">
+        
+   
+
+    </div>
+
+</div>
 
     <div id='info-section'>
         <div class = "info-group">
@@ -48,41 +63,34 @@
     </div>
 
     <div id="product-section">
-        <h2>Some of my recent work</h2>
+        <h2 class="product-title">Some of my recent work</h2>
+
+
     <div class="product-table">
-    <div class="product-group">
-        <div class="product-item prod-1">
+        <div class="product-group">
+            <div class="product-item">
+                <div class="prod-1"><img class ="prod_img" src="./Files/General/Product/Project/Multiple/1/Cover1.png" alt=""></div>
+                 <h3>Project Title</h3>
+                 <p>iOS, IoT</p>
+            </div>
+            <div class="product-item">
+                <div class="prod-1"><img class ="prod_img" src="./Files/General/Product/Project/Multiple/1/Cover2.png" alt=""></div>
+                 <h3>Project Title</h3>
+                 <p>iOS, IoT</p>
+            </div>
+            <div class="product-item">
+                <div class="prod-1"><img class ="prod_img" src="./Files/General/Product/Project/Multiple/1/Cover.png" alt=""></div>
+                 <h3>Project Title</h3>
+                 <p>iOS, IoT</p>
+            </div>
+            <div class="product-item">
+                <div class="prod-1"><img class ="prod_img" src="./Files/General/Product/Project/Multiple/1/Cover3.png" alt=""></div>
+                 <h3>Project Title</h3>
+                 <p>iOS, IoT</p>
+            </div>
            
+            
         </div>
-        <h3>Project Title</h3>
-        <p>iOS, IoT</p>
-    </div>
-
-    <div class="product-group">
-        <div class="product-item prod-2">
-            <img src="./Files/General/Product/Project/Multiple/1/Cover2.svg" alt="">
-        </div>
-        <h3>Project Title</h3>
-        <p>Android, IoT</p>
-    </div>
-
-    <div class="product-group">
-        <div class="product-item prod-3">
-            <img src="./Files/General/Product/Project/Multiple/1/Cover3.svg" alt="">
-        </div>
-        <h3>Project Title</h3>
-        <p>Web app</p>
-    </div>
-
-    <div class="product-group">
-        <div class="product-item prod-4">
-            <img src="./Files/General/Product/Project/Multiple/1/Cover4.svg" alt="">
-        </div>
-        <h3>Project Title</h3>
-        <p>web app</p>
-    </div>
-    </div>
-
     </div>
 
     <div id="social-proof">
@@ -92,29 +100,29 @@
         <div class="testominal-group">
             <div class="testominal">
                 <div class ="white-background">
-                    <h3>Efficient Collaborating</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                    <h4>Efficient Collaborating</h4>
+                    <p class="person-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
                 </div>
                 <img src="./Files/General/Product/Testimonial/_Client details/Picture.png" alt="">
-                <p><b>Jane Copper</b><br>CEO at ABC Corporation</p>
+                <p class="person-p"><b>Jane Copper</b><br>CEO at ABC Corporation</p>
             </div>
 
             <div class="testominal">
                 <div class ="white-background">
-                    <h3>Efficient Collaborating</h3>
-                    <p>Lorem ipsum dolor sit admet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                    <h4>Efficient Collaborating</h4>
+                    <p class="person-p">Lorem ipsum dolor sit admet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
                 </div>
                 <img src="./Files/General/Product/Testimonial/_Client details/Picture.png" alt="">
-                <p><b>Jane Copper</b><br>CEO at ABC Corporation</p>
+                <p class="person-p"><b>Jane Copper</b><br>CEO at ABC Corporation</p>
             </div>
 
             <div class="testominal">
                 <div class ="white-background">
-                    <h3>Efficient Collaborating</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                    <h4>Efficient Collaborating</h4>
+                    <p class="person-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
                 </div>
                 <img src="./Files/General/Product/Testimonial/_Client details/Picture.png" alt="">
-                <p><b>Jane Copper</b><br>CEO at ABC Corporation</p>
+                <p class="person-p"><b>Jane Copper</b><br>CEO at ABC Corporation</p>
             </div>
         </div>
         <img class="center-image" src="./Files/General/Product/Testimonial/_Client details/Testimonial/Slider controls/Group 3.png" alt="">
@@ -122,7 +130,10 @@
 
     <div id="final-cta">
         <h2 class="ctatitle">Craft your new website with Landify UI Kit</h2>
+
+        <form method="POST" action="./index2.html"></form>
         <button class="ctabutton">Get Started</button>
     </div>
+
 </body>
 </html>
