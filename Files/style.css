@@ -3,9 +3,9 @@
     font-family: 'Manrope', sans-serif;
     font-size: 62.5%; /* 62.5% of 16px = 10px s*/
     
- 
-    
 }
+
+
 
 h1 {
     font-size: 7.2rem;
@@ -111,14 +111,13 @@ header {
 
 #hero {
 
-
     background-image:
     linear-gradient(to right,  rgba(217,232,239,1),rgba(234,242,245,0)),
     url("../Files/General/Hero/Hero/backg2.png");
     background-repeat: no-repeat;
     background-position: right;
     max-height: 500px;
-    max-width: 1800px;
+    max-width: 24800px;
     min-height: 700px;
 }
 
@@ -257,6 +256,8 @@ ul {
     padding-bottom: 2%;
 }
 
+            /*Testimonials*/
+
 .testominal-group {
     display: flex;
     flex-direction: row;
@@ -300,8 +301,11 @@ box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
 
 #final-cta {
     display: grid;
-    grid-template: repeat(5, 1fr) / 1fr 3fr 1fr ;
+    grid-template: repeat(6, 1fr) / 1fr 2.5fr 1fr ;
     max-height: 600px;
+    justify-content: center;
+    justify-items: center;
+
     
 }
 
@@ -310,20 +314,47 @@ box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     text-align: center;
+    margin-top: 7rem 0;
+
 }
 .ctabutton {
 
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 4;
+
     min-width: 24rem;
     min-height: 6.2rem;
     background: #8C30F5;
     border-radius: 8px;
-    justify-self: center;
+   
+    margin: 4rem 0 8rem 8rem;
     color: white;
     font-size: 2rem;
+
+
+}
+
+.cta-form {
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 3rem;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #18191F;
+
+    
+}
+
+.form-field {
+    min-width: 40rem;
+    min-height: 4rem;
+   
+    margin: 1rem 0rem;
 }
